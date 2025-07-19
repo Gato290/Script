@@ -1,5 +1,5 @@
 local scripts = {
-    "https://pastefy.app/GF3L0F6U/raw" -- Premium
+    "https://pastefy.app/gXxfJ9E7/raw"
 }
 
 for _, url in ipairs(scripts) do
