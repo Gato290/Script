@@ -1,1 +1,9 @@
-loadstring(game:HttpGet("https://pastefy.app/GF3L0F6U/raw"))()
+local scripts = {
+    "https://pastefy.app/GF3L0F6U/raw" -- Premium
+}
+
+for _, url in ipairs(scripts) do
+    pcall(function()
+        loadstring(game:HttpGet(url))()
+    end)
+end
